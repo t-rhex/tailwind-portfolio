@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Andrew Adhikari Portfolio v2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch "
+  },
+  "keywords": [],
+  "author": "Andrew Adhikari",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
